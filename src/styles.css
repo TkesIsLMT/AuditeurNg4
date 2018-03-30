@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+@import './content/css/fa-svg-with-js.css';
+@import './content/css/bootstrap.css';
+@import './content/css/tkes.css';
