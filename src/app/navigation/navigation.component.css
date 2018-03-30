@@ -1,0 +1,50 @@
+.navbar .navbar-brand {
+    padding: 15px 15px;
+    vertical-align: bottom;
+}
+
+    .navbar .navbar-brand img {
+        display: inline-block;
+    }
+
+.navbar-default .navbar-text-bottom {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.navbar-text-bottom {
+    margin-top: 40px;
+}
+
+.navbar li {
+    font-size: 16px;
+}
+
+.navbar .dropdown > a > span:before,
+.navbar .dropdown > a > span:after {
+    content: "\00a0 ";
+}
+
+.navbar .dropdown-menu li {
+    font-size: 14px;
+}
+
+.navbar li.active a,
+.navbar li a.active {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > li > a.active:hover,
+.navbar-default .navbar-nav > li > a.active:focus {
+    background-color: #008ad4;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+}
